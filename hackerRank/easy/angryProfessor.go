@@ -1,6 +1,7 @@
 package hackerRank
 
 // Complete the angryProfessor function below.
+// https://www.hackerrank.com/challenges/angry-professor/problem
 func angryProfessor(k int32, a []int32) string {
 
 	var count int32 = 0

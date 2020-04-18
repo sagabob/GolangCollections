@@ -2,6 +2,7 @@ package hackerRank
 
 import "math"
 
+//https://www.hackerrank.com/challenges/strange-code/problem
 // Complete the angryProfessor function below.
 func strangeCounter(t int64) int64 {
 

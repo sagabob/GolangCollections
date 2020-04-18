@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 
-	calc "github.com/sagabob/GolangCollections/demo/topics"
+	hackRank "github.com/sagabob/GolangCollections/hackerRank/easy"
 )
 
 func main() {
 
 	fmt.Println("Welcome to Golang !")
 
-	calc.FromCalculator()
+	hackRank.Output_beautifulTriplets()
 
 }
