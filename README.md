@@ -1,0 +1,2 @@
+# GolangCollections
+For learning Golang
