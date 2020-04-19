@@ -10,8 +10,8 @@ func List_Sample01() {
 	intList.PushBack(11)
 	intList.PushBack(23)
 	intList.PushBack(34)
-	intList.PushBack("Hello World")
+	intList.PushBack("---Hello World---")
 	for element := intList.Front(); element != nil; element = element.Next() {
-		fmt.Println(element.Value)
+		fmt.Println("Element of the list -> ", element.Value)
 	}
 }

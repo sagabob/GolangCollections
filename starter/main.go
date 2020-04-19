@@ -15,4 +15,6 @@ func main() {
 	datastructure.List_Sample01()
 
 	core.Closures_Sample01()
+
+	core.Closures_Sample02()
 }
