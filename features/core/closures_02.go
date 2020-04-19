@@ -7,6 +7,9 @@ import (
 
 func adminCheck(h http.Handler) http.HandlerFunc {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+
+		fmt.Println(r.Header.Get("user"))
+
 		if r.Header.Get("user") != "admin" {
 			http.Error(w, "Not Authorized", 401)
 			return
@@ -29,6 +32,7 @@ func newStatusCode(h http.Handler) http.HandlerFunc {
 func addHeader(h http.Handler) http.HandlerFunc {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Add("user", "admin")
+
 		h.ServeHTTP(w, r)
 	})
 }
