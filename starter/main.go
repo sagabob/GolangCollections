@@ -3,13 +3,16 @@ package main
 import (
 	"fmt"
 
-	hackRank "github.com/sagabob/GolangCollections/hackerRank/medium"
+	datastructure "github.com/sagabob/GolangCollections/features/datastructures"
+
+	core "github.com/sagabob/GolangCollections/features/core"
 )
 
 func main() {
 
 	fmt.Println("Welcome to Golang !")
 
-	hackRank.Output_maxSubsetSum()
+	datastructure.List_Sample01()
 
+	core.Closures_Sample01()
 }
