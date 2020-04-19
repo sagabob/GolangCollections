@@ -19,7 +19,7 @@ func incrementCounter() func() int {
 	}
 }
 
-func Closures_Sample01() {
+func Closures_01_Sample01() {
 
 	helloGo()
 
@@ -41,7 +41,7 @@ func Closures_Sample01() {
 	fmt.Println("n1 increment counter #3: ", n1()) // state of n1 is not changed with the n2 calls
 }
 
-func Closures_Sample02() {
+func Closures_01_Sample02() {
 	input := []string{"foo", "bar", "baz"}
 	var result []string
 	// closure callback
