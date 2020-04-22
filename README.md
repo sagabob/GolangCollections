@@ -5,7 +5,7 @@
   <a href="#">
     <img src="https://i.ibb.co/qmhtHPg/Tdp-logo.png" alt="Logo" width="250" height="100" border="1">
   </a>
-  <h4 align="center">Collections of Golang</h4>
+  <h3 align="center">Collections of Golang</h3>
 </p>
  
 ## Table of Contents
@@ -15,7 +15,7 @@
 * [Status](#status) 
 
 ## About the project
-The repository contains code snippet for basic learning Golang. 
+The repository contains code snippet for basic learning Golang.</br> 
 In detail:
 - It covers examples on how to use data structure, structs & functions in Golang 
 - A number of solutions for some problems from Hacker Rank site.
