@@ -18,7 +18,7 @@
 The repository contains code snippet for basic learning Golang.</br> 
 In detail:
 - It covers examples on how to use data structure, structs & functions in Golang 
-- A number of solutions for some problems from Hacker Rank site.
+- A number of solutions for some problems from [Hacker Rank](https://www.hackerrank.com/).
 
 ## Status
  [![Build Status](https://travis-ci.com/sagabob/GolangCollections.svg?branch=master)](https://travis-ci.com/sagabob/GolangCollections)
