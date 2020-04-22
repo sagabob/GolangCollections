@@ -4,4 +4,4 @@ go:
 env:
 - GO111MODULE=on
 script:
-- go build .
+- go build ./...
