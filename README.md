@@ -5,7 +5,7 @@
   <a href="#">
     <img src="https://i.ibb.co/qmhtHPg/Tdp-logo.png" alt="Logo" width="250" height="100" border="1">
   </a>
-  <h3 align="center">Collections of Golang</h3>
+  <h2 align="center">Collections of Golang</h2>
 </p>
  
 ## Table of Contents
