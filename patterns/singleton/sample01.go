@@ -1,16 +1,24 @@
 package singleton
 
-type Singleton interface {
-	AddOne() int
-}
-
 type singleton struct {
 	count int
 }
 
-func GetInstance() Singleton {
-	return nil
+var instance *singleton
+
+func GetInstance() *singleton {
+	if instance == nil {
+		instance = new(singleton)
+	}
+
+	return instance
 }
+
 func (s *singleton) AddOne() int {
-	return 0
+	s.count++
+	return s.count
+}
+
+func (s *singleton) GetCount() int {
+	return s.count
 }

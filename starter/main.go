@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	hackerRank "github.com/sagabob/GolangCollections/hackerRank/medium"
+	concurrency "github.com/sagabob/GolangCollections/concurrency"
 )
 
 func main() {
 
 	fmt.Println("Welcome to Golang !")
 
-	hackerRank.Output_initializeChange()
+	concurrency.Call_03_Sample01()
 }
