@@ -20,6 +20,7 @@ type HandlerInterface interface {
 	SignOut(c *gin.Context)
 	GetOrders(c *gin.Context)
 	Charge(c *gin.Context)
+	GetMainPage(c *gin.Context)
 }
 
 type Handler struct {

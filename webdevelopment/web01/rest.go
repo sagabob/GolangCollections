@@ -19,7 +19,7 @@ func RunAPI(address string) error {
 }
 
 func RunServer() {
-	
+
 	log.Println("Main log....")
 	RunAPI(":9090")
 }
