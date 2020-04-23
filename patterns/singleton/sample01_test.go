@@ -9,8 +9,8 @@ func TestGetInstance(t *testing.T) {
 		t.Error("Expected pointer to Singleton after calling GetInstance(), not nil")
 	}
 	currentCount := counter1.AddOne()
+
 	if currentCount != 1 {
-	t.Errorf("After calling for the first time to count, the count must be
-	1 but it is %d\n", currentCount)
+		t.Errorf("After calling for the first time to count, the count must be 1 but it is %d\n", currentCount)
 	}
 }
