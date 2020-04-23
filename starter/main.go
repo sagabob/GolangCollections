@@ -3,12 +3,13 @@ package main
 import (
 	"fmt"
 
-	concurrency "github.com/sagabob/GolangCollections/concurrency"
+	rest "github.com/sagabob/GolangCollections/webdevelopment/web01"
 )
 
 func main() {
 
 	fmt.Println("Welcome to Golang !")
 
-	concurrency.Call_03_Sample01()
+	rest.RunServer()
+
 }
